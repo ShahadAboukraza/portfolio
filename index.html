@@ -1,229 +1,204 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shahad Aboukraza - Frontend Developer</title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHAHAD - Frontend Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual Public Key
+    })();
+  </script>
 </head>
-
 <body>
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <div class="logo">Welcome!</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+<div class="bg-animation">
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
   </div>
-</header>
+</div>
+<div class="parallax-bg"></div>
+<div class="cursor-follower"></div>
+<nav class="navbar">
+  <a href="#home" class="nav-link">Home</a>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#projects" class="nav-link">Projects</a>
+  <a href="#skills" class="nav-link">Skills</a>
+  <a href="#contact" class="nav-link">Contact</a>
+  <img src="https://i.postimg.cc/Bt1qZFcS/cartoon-profile.png" alt="Profile Picture" class="profile-pic">
+</nav>
 
 <section class="hero" id="home">
-  <div class="container">
-    <h1 class="name">SHAHAD ABOUKRAZA</h1>
-    <span class="title">FRONTEND DEVELOPER</span>
-    <p>Creating beautiful, user-first products that drive results</p>
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-number">1</span>
-        <span class="stat-label">Year Experience</span>
+  <div class="hero-content">
+    <h1 class="name-animation">SHAHAD</h1>
+    <h2 class="title-animation">FRONTEND DEVELOPER</h2>
+    <p class="subtitle-animation">Transforming Ideas into Interactive Digital Experiences</p>
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-code"></i></div>
+        <span class="stat-number">2+</span>
+        <span class="stat-label">Years Experience</span>
       </div>
-      <div class="stat">
-        <span class="stat-number">Education</span>
-        <span class="stat-label">BSc. Computer Science</span>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+        <span class="stat-number">BSc.</span>
+        <span class="stat-label">Computer Science</span>
       </div>
-      <div class="stat">
-        <span class="stat-number">Languages</span>
-        <span class="stat-label">English, Arabic</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- About Section -->
-<section class="about" id="about">
-  <div class="container">
-    <h2>ABOUT <span class="grey">MYSELF</span></h2>
-    <p>My name is Shahad Aboukraza and I'm a skilled frontend developer with experience in designing user-friendly digital products. I specialize in creating intuitive interfaces that solve real problems and deliver exceptional user experiences. My passion lies in bridging the gap between user needs and business goals through thoughtful design.</p>
-    <div class="profile-img">👨‍💻</div>
-  </div>
-</section>
-
-<!-- Designer Section -->
-<section class="designer">
-  <div class="container">
-    <div class="designer-content">
-      <p class="awesome">LET'S BUILD SOMETHING AWESOME</p>
-      <div class="designer-text">
-        <h2>THE DEVELOPER YOU NEED</h2>
-        <p>Since 2018, I've worked with 100+ clients and 5+ agencies to create innovative, scalable, and user-friendly products. I create intuitive, accessible, and responsive designs that not only look great but also work flawlessly across all devices and platforms.</p>
-      </div>
-    </div>
-  </div>
-  <div class="handshake-img">🤝</div>
-</section>
-
-<!-- Portfolio Section -->
-<section class="portfolio" id="portfolio">
-  <div class="container">
-    <h2>PORTFOLIO HIGHLIGHTS</h2>
-    <div class="portfolio-grid">
-      <div class="portfolio-item"></div>
-      <div class="portfolio-item"></div>
-      <div class="portfolio-item"></div>
-      <div class="portfolio-item"></div>
-    </div>
-  </div>
-</section>
-
-<!-- Story Section -->
-<section class="story">
-  <div class="container">
-    <div class="story-content">
-      <div class="story-text">
-        <h2>MY STORY</h2>
-        <div class="story-year">2018</div>
-        <h3>MAAYO DESIGN STUDIO</h3>
-        <p>Founded my own design studio with a focus on creating exceptional digital experiences. Started with a small team and grew to work with clients across various industries, delivering innovative solutions that drive business growth.</p>
-      </div>
-      <div class="story-img">🏢</div>
-    </div>
-  </div>
-</section>
-
-<!-- Working Process Section -->
-<section class="process">
-  <div class="container">
-    <h2>WORKING PROCESS</h2>
-    <p style="text-align: center; font-size: 1.1rem; margin-bottom: 40px;">A systematic approach to delivering exceptional results</p>
-    <div class="process-steps">
-      <div class="process-step">
-        <div class="process-icon">🔍</div>
-        <h3>Researching</h3>
-        <p>Understanding user needs, market trends, and business requirements to create informed design decisions</p>
-      </div>
-      <div class="process-step">
-        <div class="process-icon">📋</div>
-        <h3>Planning</h3>
-        <p>Creating detailed project roadmaps, wireframes, and strategic approaches to achieve design goals</p>
-      </div>
-      <div class="process-step">
-        <div class="process-icon">🎨</div>
-        <h3>Designing</h3>
-        <p>Crafting beautiful, functional designs that solve problems and deliver exceptional user experiences</p>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-language"></i></div>
+        <span class="stat-number">2</span>
+        <span class="stat-label">Languages: EN, AR</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Testimonials Section -->
-<section class="testimonials">
-  <div class="container">
-    <h2>CLIENTS SWEET WORDS</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial">
-        <p>"Adom's design work is top-notch. He understood our vision perfectly and delivered a product that exceeded our expectations. His attention to detail and user-centric approach made all the difference."</p>
-        <div class="testimonial-author">- Sarah Johnson, CEO</div>
+<section class="about-section" id="about">
+  <div class="about-card">
+    <h2><i class="fa-solid fa-user-minus"></i> About Me</h2>
+    <p>
+      Hi, I’m Shahad — a frontend developer with a strong foundation in building responsive, modern, and user-focused web interfaces. I specialize in turning ideas into sleek digital experiences using HTML, CSS, and JavaScript.
+    </p>
+    <br></br>
+
+    <p>
+      I love blending design with functionality to create websites that not only look great but also perform smoothly across all devices. Whether it’s a clean landing page or a dynamic web component, I focus on delivering high-quality work that meets real-world needs.
+    </p>
+    <br></br>
+    <p>
+      Let’s bring your vision to life — pixel by pixel.
+    </p>
+  </div>
+
+</section>
+ <section class="work-section" id="projects">
+<h2 class="section-title"><i class="fa-solid fa-bars-progress"></i> Projects</h2>
+<div class="video-grid">
+  <div class="video-card">
+    <video src="video1.mp4" poster="thumb1.jpg" controls></video>
+    <p class="video-time">0:30</p>
+  </div>
+  <div class="video-card">
+    <video src="video2.mp4" poster="thumb2.jpg" controls></video>
+    <p class="video-time">0:48</p>
+  </div>
+  <div class="video-card">
+    <video src="video3.mp4" poster="thumb3.jpg" controls></video>
+    <p class="video-time">0:20</p>
+  </div>
+  <div class="video-card">
+    <video src="video4.mp4" poster="thumb4.jpg" controls></video>
+    <p class="video-time">0:34</p>
+  </div>
+</div>
+
+<!-- inside <section class="story-section" id="story"> -->
+<h2 class="section-title"> My Story</h2>
+<div class="story-container">
+  <div class="story-card">🎓 University Journey</div>
+  <div class="story-card">💻 Web Dev Experience</div>
+  <div class="story-card">🧠 AI Projects & Learning</div>
+  <div class="story-card">🧳 Life Lessons</div>
+</div>
+
+
+
+
+<section id="skills" class="skills-section py-10 px-4">
+  <h2 class="section-title text-white text-center text-3xl font-bold mb-6"><i class="fa-solid fa-toolbox"></i> My Skills</h2>
+  <div class="skills-container card-container">
+
+
+  <!-- Skill Card: HTML, CSS, JS -->
+    <div class="card">
+      <div class="card__border"></div>
+      <div class="card_title__container">
+        <span class="card_title">Frontend Core</span>
+        <p class="card_paragraph">Foundational web building blocks.</p>
       </div>
-      <div class="testimonial">
-        <p>"Working with Adom was a game-changer for our startup. His design expertise and professional approach helped us create a product that our users love. I highly recommend his services."</p>
-        <div class="testimonial-author">- Mike Chen, Founder</div>
-      </div>
+      <hr class="line" />
+      <ul class="card__list">
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">HTML</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">CSS</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">JavaScript</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Typescript</span></li>
+
+      </ul>
+      <button class="button">Core Mastered</button>
     </div>
+
+    <!-- Skill Card: Frameworks -->
+    <div class="card">
+      <div class="card__border"></div>
+      <div class="card_title__container">
+        <span class="card_title">Frameworks</span>
+        <p class="card_paragraph">UI tools I use to build faster.</p>
+      </div>
+      <hr class="line" />
+      <ul class="card__list">
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">React</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Angular</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">TailwindCSS</span></li>
+      </ul>
+      <button class="button">Framework Fluent</button>
+    </div>
+
+    <!-- Skill Card: Tools & Extras -->
+    <div class="card">
+      <div class="card__border"></div>
+      <div class="card_title__container">
+        <span class="card_title">Tools & UI</span>
+        <p class="card_paragraph">For design and team collaboration.</p>
+      </div>
+      <hr class="line" />
+      <ul class="card__list">
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Figma</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Git/GitHub</span></li>
+        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">VS Code</span></li>
+      </ul>
+      <button class="button">Toolkit Ready</button>
+    </div>
+
   </div>
 </section>
 
-<!-- Contact Section -->
-<section class="contact" id="contact">
-  <div class="container">
-    <h2>LET'S WORK TOGETHER</h2>
-    <div class="contact-info">
-      <div class="contact-item">
-        <h3>Email</h3>
-        <p>aboukrazashahad&#64;email.com</p>
-      </div>
-      <div class="contact-item">
-        <h3>Phone</h3>
-        <p>+1 (555) 123-4567</p>
-      </div>
-      <div class="contact-item">
-        <h3>Location</h3>
-        <p>New York, NY</p>
-      </div>
+
+<section class="contact-section" id="contact">
+    <h2 class="section-title">
+      <i class="fa-solid fa-address-card" style="margin-right: 10px;"></i>
+      Get in Touch
+    </h2>
+
+    <div class="form-container">
+      <form class="form" id="contactForm">
+
+      <div class="form-group">
+          <label for="email">Company Email</label>
+          <input type="text" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Write your message..." required></textarea>
+        </div>
+        <button class="form-submit-btn" type="submit">Submit</button>
+      </form>
     </div>
-  </div>
+  </section>
+
 </section>
 
-<footer class="footer">
-  <div class="container">
-    <p>Thank You!</p>
-  </div>
-</footer>
+<div class="floating-menu">
+  <button class="fab" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</div>
 
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-
-  window.addEventListener('scroll', function() {
-    const header = document.querySelector('.header');
-    if (window.scrollY > 100) {
-      header.style.background = 'rgba(255, 255, 255, 0.95)';
-      header.style.backdropFilter = 'blur(10px)';
-    } else {
-      header.style.background = 'white';
-      header.style.backdropFilter = 'none';
-    }
-  });
-
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
-  };
-
-  const observer = new IntersectionObserver(function(entries) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-      }
-    });
-  }, observerOptions);
-
-  document.querySelectorAll('.portfolio-item, .process-step, .testimonial').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'all 0.6s ease';
-    observer.observe(el);
-  });
-</script>
-
-
+<script src="script.js"></script>
 </body>
-
 </html>
