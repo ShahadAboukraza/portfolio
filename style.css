@@ -281,12 +281,17 @@
   background: var(--card-bg);
   padding: 3rem;
   max-width: 700px;
-  margin: 4rem auto;
   border-radius: 20px;
-  text-align: center;
   backdrop-filter: blur(12px);
   color: var(--text-color);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: left;
+  margin: auto;
 }
 
 .section-title {
@@ -301,6 +306,8 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .video-card {
@@ -325,6 +332,8 @@
   gap: 10px;
   padding: 2rem;
   overflow-x: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .story-card {
@@ -688,6 +697,7 @@
   .about-card {
     margin: 2rem 1rem;
     padding: 2rem;
+    text-align: center;
   }
 
   .video-grid {
