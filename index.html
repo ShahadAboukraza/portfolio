@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,194 +10,233 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual Public Key
+      emailjs.init("8vH_SNYpe_wqD3DyE");
     })();
   </script>
 </head>
 <body>
-<div class="bg-animation">
-  <div class="floating-shapes">
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-  </div>
-</div>
-<div class="parallax-bg"></div>
-<div class="cursor-follower"></div>
-<nav class="navbar">
-  <a href="#home" class="nav-link">Home</a>
-  <a href="#about" class="nav-link">About</a>
-  <a href="#projects" class="nav-link">Projects</a>
-  <a href="#skills" class="nav-link">Skills</a>
-  <a href="#contact" class="nav-link">Contact</a>
-  <img src="https://i.postimg.cc/Bt1qZFcS/cartoon-profile.png" alt="Profile Picture" class="profile-pic">
-</nav>
+<!-- Main content (your original design) -->
+<div class="main-content" id="mainContent">
+  <nav class="navbar">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <img src="https://i.postimg.cc/Bt1qZFcS/cartoon-profile.png" alt="Profile Picture" class="profile-pic">
+  </nav>
 
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1 class="name-animation">SHAHAD</h1>
-    <h2 class="title-animation">FRONTEND DEVELOPER</h2>
-    <p class="subtitle-animation">Transforming Ideas into Interactive Digital Experiences</p>
-    <div class="stats-container">
-      <div class="stat-card">
-        <div class="stat-icon"><i class="fas fa-code"></i></div>
-        <span class="stat-number">2+</span>
-        <span class="stat-label">Years Experience</span>
-      </div>
-      <div class="stat-card">
-        <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
-        <span class="stat-number">BSc.</span>
-        <span class="stat-label">Computer Science</span>
-      </div>
-      <div class="stat-card">
-        <div class="stat-icon"><i class="fas fa-language"></i></div>
-        <span class="stat-number">2</span>
-        <span class="stat-label">Languages: EN, AR</span>
-      </div>
+  <section class="hero" id="home">
+    <div class="floating-elements">
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
     </div>
-  </div>
-</section>
-
-<section class="about-section" id="about">
-  <div class="about-card">
-    <h2><i class="fa-solid fa-user-minus"></i> About Me</h2>
-    <p>
-      Hi, I’m Shahad — a frontend developer with a strong foundation in building responsive, modern, and user-focused web interfaces. I specialize in turning ideas into sleek digital experiences using HTML, CSS, and JavaScript.
-    </p>
-    <br></br>
-
-    <p>
-      I love blending design with functionality to create websites that not only look great but also perform smoothly across all devices. Whether it’s a clean landing page or a dynamic web component, I focus on delivering high-quality work that meets real-world needs.
-    </p>
-    <br></br>
-    <p>
-      Let’s bring your vision to life — pixel by pixel.
-    </p>
-  </div>
-
-</section>
- <section class="work-section" id="projects">
-<h2 class="section-title"><i class="fa-solid fa-bars-progress"></i> Projects</h2>
-<div class="video-grid">
-  <div class="video-card">
-    <video src="video1.mp4" poster="thumb1.jpg" controls></video>
-    <p class="video-time">0:30</p>
-  </div>
-  <div class="video-card">
-    <video src="video2.mp4" poster="thumb2.jpg" controls></video>
-    <p class="video-time">0:48</p>
-  </div>
-  <div class="video-card">
-    <video src="video3.mp4" poster="thumb3.jpg" controls></video>
-    <p class="video-time">0:20</p>
-  </div>
-  <div class="video-card">
-    <video src="video4.mp4" poster="thumb4.jpg" controls></video>
-    <p class="video-time">0:34</p>
-  </div>
-</div>
-
-<!-- inside <section class="story-section" id="story"> -->
-<h2 class="section-title"> My Story</h2>
-<div class="story-container">
-  <div class="story-card">🎓 University Journey</div>
-  <div class="story-card">💻 Web Dev Experience</div>
-  <div class="story-card">🧠 AI Projects & Learning</div>
-  <div class="story-card">🧳 Life Lessons</div>
-</div>
-
-
-
-
-<section id="skills" class="skills-section py-10 px-4">
-  <h2 class="section-title text-white text-center text-3xl font-bold mb-6"><i class="fa-solid fa-toolbox"></i> My Skills</h2>
-  <div class="skills-container card-container">
-
-
-  <!-- Skill Card: HTML, CSS, JS -->
-    <div class="card">
-      <div class="card__border"></div>
-      <div class="card_title__container">
-        <span class="card_title">Frontend Core</span>
-        <p class="card_paragraph">Foundational web building blocks.</p>
-      </div>
-      <hr class="line" />
-      <ul class="card__list">
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">HTML</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">CSS</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">JavaScript</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Typescript</span></li>
-
-      </ul>
-      <button class="button">Core Mastered</button>
-    </div>
-
-    <!-- Skill Card: Frameworks -->
-    <div class="card">
-      <div class="card__border"></div>
-      <div class="card_title__container">
-        <span class="card_title">Frameworks</span>
-        <p class="card_paragraph">UI tools I use to build faster.</p>
-      </div>
-      <hr class="line" />
-      <ul class="card__list">
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">React</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Angular</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">TailwindCSS</span></li>
-      </ul>
-      <button class="button">Framework Fluent</button>
-    </div>
-
-    <!-- Skill Card: Tools & Extras -->
-    <div class="card">
-      <div class="card__border"></div>
-      <div class="card_title__container">
-        <span class="card_title">Tools & UI</span>
-        <p class="card_paragraph">For design and team collaboration.</p>
-      </div>
-      <hr class="line" />
-      <ul class="card__list">
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Figma</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">Git/GitHub</span></li>
-        <li class="card__list_item"><span class="check"><svg class="check_svg" viewBox="0 0 16 16"><path d="..."/></svg></span><span class="list_text">VS Code</span></li>
-      </ul>
-      <button class="button">Toolkit Ready</button>
-    </div>
-
-  </div>
-</section>
-
-
-<section class="contact-section" id="contact">
-    <h2 class="section-title">
-      <i class="fa-solid fa-address-card" style="margin-right: 10px;"></i>
-      Get in Touch
-    </h2>
-
-    <div class="form-container">
-      <form class="form" id="contactForm">
-
-      <div class="form-group">
-          <label for="email">Company Email</label>
-          <input type="text" id="email" name="email" placeholder="your@email.com" required />
+    <div class="hero-content">
+      <h1 class="name-animation">SHAHAD</h1>
+      <div class="content">
+        <h2 class="title-animation">FRONTEND DEVELOPER</h2>
+        <p class="subtitle-animation">Transforming Ideas into Interactive Digital Experiences</p>
+        <div class="stats-container">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-code"></i></div>
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+            <span class="stat-number">BSc.</span>
+            <span class="stat-label">Computer Science</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-language"></i></div>
+            <span class="stat-number">2</span>
+            <span class="stat-label">Languages: EN, AR</span>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="textarea">How Can We Help You?</label>
-          <textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Write your message..." required></textarea>
-        </div>
-        <button class="form-submit-btn" type="submit">Submit</button>
-      </form>
+      </div>
     </div>
   </section>
 
-</section>
+  <section class="about-section" id="about">
+    <div class="about-card">
+      <h2><i class="fa-solid fa-user-minus"></i> About Me</h2>
+      <p>
+        Hi, I'm Shahad — a frontend developer with a strong foundation in building responsive, modern, and user-focused web interfaces. I specialize in turning ideas into sleek digital experiences using HTML, CSS, and JavaScript.
+      </p>
+      <br>
+      <p>
+        I love blending design with functionality to create websites that not only look great but also perform smoothly across all devices. Whether it's a clean landing page or a dynamic web component, I focus on delivering high-quality work that meets real-world needs.
+      </p>
+      <br>
+      <p>
+        Let's bring your vision to life — pixel by pixel.
+      </p>
+    </div>
+  </section>
+
+  <section class="work-section" id="projects">
+    <h2 class="section-title"><i class="fa-solid fa-bars-progress"></i> Projects</h2>
+    <div class="video-grid">
+      <div class="video-card">
+        <video src="video1.mp4" poster="thumb1.jpg" controls></video>
+        <p class="video-time">0:30</p>
+      </div>
+      <div class="video-card">
+        <video src="video2.mp4" poster="thumb2.jpg" controls></video>
+        <p class="video-time">0:48</p>
+      </div>
+      <div class="video-card">
+        <video src="video3.mp4" poster="thumb3.jpg" controls></video>
+        <p class="video-time">0:20</p>
+      </div>
+      <div class="video-card">
+        <video src="video4.mp4" poster="thumb4.jpg" controls></video>
+        <p class="video-time">0:34</p>
+      </div>
+    </div>
+
+    <h2 class="section-title"> My Story</h2>
+    <div class="story-container">
+      <div class="story-card">
+        <div class="story-card-inner">
+          <div class="story-card-front">
+            🎓 University Journey
+          </div>
+          <div class="story-card-back">
+            Studied Computer Science, where I discovered my passion for frontend development and learned the fundamentals of programming.
+          </div>
+        </div>
+      </div>
+      <div class="story-card">
+        <div class="story-card-inner">
+          <div class="story-card-front">
+            💻 Web Dev Experience
+          </div>
+          <div class="story-card-back">
+            2+ years building responsive websites and modern web applications using HTML, CSS, JavaScript, and popular frameworks.
+          </div>
+        </div>
+      </div>
+      <div class="story-card">
+        <div class="story-card-inner">
+          <div class="story-card-front">
+            🧠 AI Projects & Learning
+          </div>
+          <div class="story-card-back">
+            Exploring the intersection of AI and web development, constantly learning new technologies and staying updated with industry trends.
+          </div>
+        </div>
+      </div>
+      <div class="story-card">
+        <div class="story-card-inner">
+          <div class="story-card-front">
+            🧳 Life Lessons
+          </div>
+          <div class="story-card-back">
+            Every project teaches something new. Embracing challenges, learning from failures, and celebrating small wins along the way.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section py-10 px-4">
+    <h2 class="section-title text-white text-center text-3xl font-bold mb-6"><i class="fa-solid fa-toolbox"></i> My Skills</h2>
+    <div class="skills-container card-container">
+      <!-- Skill Card: HTML, CSS, JS -->
+      <div class="card">
+        <div class="card__border"></div>
+        <div class="card_title__container">
+          <span class="card_title">Frontend Core</span>
+          <p class="card_paragraph">Foundational web building blocks.</p>
+        </div>
+        <hr class="line" />
+        <ul class="card__list">
+          <li class="card__list_item"><span class="check"></span><span class="list_text">HTML</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">CSS</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">JavaScript</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">Typescript</span></li>
+        </ul>
+      </div>
+
+      <!-- Skill Card: Frameworks -->
+      <div class="card">
+        <div class="card__border"></div>
+        <div class="card_title__container">
+          <span class="card_title">Frameworks</span>
+          <p class="card_paragraph">UI tools I use to build faster.</p>
+        </div>
+        <hr class="line" />
+        <ul class="card__list">
+          <li class="card__list_item"><span class="check"></span><span class="list_text">React</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">Angular</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">TailwindCSS</span></li>
+        </ul>
+      </div>
+
+      <!-- Skill Card: Tools & Extras -->
+      <div class="card">
+        <div class="card__border"></div>
+        <div class="card_title__container">
+          <span class="card_title">Tools & UI</span>
+          <p class="card_paragraph">For design and team collaboration.</p>
+        </div>
+        <hr class="line" />
+        <ul class="card__list">
+          <li class="card__list_item"><span class="check"></span><span class="list_text">Figma</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">Git/GitHub</span></li>
+          <li class="card__list_item"><span class="check"></span><span class="list_text">VS Code</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<button class="fixed-contact-btn" id="contactButton">
+  <img src="https://i.postimg.cc/Bt1qZFcS/cartoon-profile.png" alt="Contact" class="contact-avatar">
+  Contact Me
+</button>
+
+<!-- CONTACT MODAL -->
+<div class="contact-modal" id="contactModal">
+  <div class="contact-modal-content">
+    <div class="contact-modal-header">
+      <h2 class="contact-modal-title">Get in Touch</h2>
+      <button class="contact-close-btn" id="closeModal">&times;</button>
+    </div>
+    <form id="contactForm">
+      <div class="contact-form-group">
+        <label for="contactName">Your Name</label>
+        <input type="text" id="contactName" name="name" required>
+      </div>
+      <div class="contact-form-group">
+        <label for="contactEmail">Email Address</label>
+        <input type="email" id="contactEmail" name="email" required>
+      </div>
+      <div class="contact-form-group">
+        <label for="contactSubject">Subject</label>
+        <input type="text" id="contactSubject" name="subject" required>
+      </div>
+      <div class="contact-form-group">
+        <label for="contactMessage">Message</label>
+        <textarea id="contactMessage" name="message" required placeholder="Tell me about your project..."></textarea>
+      </div>
+      <button type="submit" class="contact-submit-btn" id="submitBtn">Send Message</button>
+    </form>
+  </div>
+</div>
+
+
+
 
 <div class="floating-menu">
-  <button class="fab" onclick="scrollToTop()">
+  <button class="fab" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
     <i class="fas fa-arrow-up"></i>
   </button>
 </div>
 
-<script src="script.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
