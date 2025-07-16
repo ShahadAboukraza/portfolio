@@ -1,10 +1,12 @@
 function openModal() {
   const modal = document.getElementById('modalOverlay');
   modal.classList.add('active');
+  modal.style.display = 'flex';
 }
 
 function closeModal(event) {
   const modal = document.getElementById('modalOverlay');
+  modal.style.display = 'none';
   if (!event || event.target.id === 'modalOverlay' || event.target.classList.contains('close-btn') || event.target.innerHTML === '×') {
     modal.classList.remove('active');
     setTimeout(() => {
